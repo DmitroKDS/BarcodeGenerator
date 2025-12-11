@@ -10,7 +10,7 @@ You send the bot a 12-digit number → it creates a high-resolution (300 DPI) ba
 
 ### Requirements
 
-pip install pyTelegramBotAPI python-barcode pillow
+`pip install pyTelegramBotAPI python-barcode pillow`
 
 ### How to run
 1.	Put your bot token into the code:
