@@ -13,10 +13,10 @@ You send the bot a 12-digit number → it creates a high-resolution (300 DPI) ba
 pip install pyTelegramBotAPI python-barcode pillow
 
 ### How to run
-	1.	Put your bot token into the code:
-BarcodeGeneratorBot = telebot.TeleBot("YOUR_TELEGRAM_BOT_TOKEN")
+1.	Put your bot token into the code:
+`BarcodeGeneratorBot = telebot.TeleBot("YOUR_TELEGRAM_BOT_TOKEN")`
 
-	2.	Run the bot:
-python main.py
+2.	Run the bot:
+`python main.py`
 
-	3.	In Telegram, send /start, then send any 12-digit number – you’ll get a PNG barcode in response.
+3.	In Telegram, send /start, then send any 12-digit number – you’ll get a PNG barcode in response.
